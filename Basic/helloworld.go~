@@ -1,0 +1,17 @@
+package main
+
+import "fmt"
+
+var name = "max"
+
+func main() {
+     
+     fmt.Println("My dog name is a " +name);
+     
+}
+
+func dogName() {
+     
+     fmt.Println("Another dog name is: " +name);
+     
+}
